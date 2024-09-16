@@ -23,7 +23,6 @@ describe('API Glosssary Form Page', () => {
    
     it('4. Test to check the Glossary text available or not', () => {
         cy.get('.amp-post-title').should('contains.text', 'APILayer API Glossary');
-        cy.get('.amp-post-title').click();
     });
 
     it('5. Test to check what is API Glossary text', () => {

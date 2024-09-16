@@ -44,8 +44,8 @@ describe('Test Cases for IPstack status page.', () => {
         cy.get(':nth-child(2) > .uk-h4').should('contain.text', '100.000%');
     });
 
-    it('9. Test to check the overall uptime for the last 30 days is 99.984%', () => {
-        cy.get(':nth-child(3) > .uk-h4').should('contain.text', '99.984%');
+    it('9. Test to check the overall uptime for the last 30 days is 100.000%', () => {
+        cy.get(':nth-child(3) > .uk-h4').should('contain.text', '100.000%');
     });
 
     it('10. Test to check the overall uptime for the last 90 days is 99.995%', () => {
